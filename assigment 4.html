@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Hotel Room Booking Form </h1>
+    <form>
+        <p> <h2>Personal Details</h2> </p>
+        <label for="Name "> Full Name : </label>
+        <br>
+        <input type="text" name="Name" id="Name ">
+        <br><br>
+        <label for="email"> Email : </label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br><br>
+        <label for="phone"> Phone Number : </label>
+        <br>
+        <input type="number" name="phone" id="phone">
+        <br><br> 
+
+        <p> <h2> Booking Details </h2> </p>
+
+        <label for="indate"> Check-in Date: </label>
+        <br>
+        <input type="date" name="indate" id="indate">
+        <br><br>
+        <label for="outdate"> Check-out Date :</label>
+        <br>
+        <input type="date" name="outdate" id="outdate">
+        <br><br> 
+        <label for="guest"> Number of guest : </label>
+        <br>
+        <input type="number" name="guest" id="guest" min="1" max="10">
+        <br><br>
+        <lable for=" room "> Room type :</lable>
+        <br>
+        <select id="room" name="room">
+            <option value=""> --Select Room Type --</option>
+            <option value="single">Single Room</option>
+            <option value="Double">Double Room</option>
+            <option value="suite">Suite</option>
+            <option value="Delxue">Delxue</option>
+        </select>
+        <br><br>
+        <label for="request">  Special Requests: </label>
+        <br> 
+        <textarea id="request" name="request" rows="4" cols="40" placeholder="Write any Special request here....."></textarea>
+        <br><br>
+
+        <p> <h2> Payment Method </h2></p>
+        <label for=" CC "> Credit Card </label>
+        <input type="radio" id="CC" name="CC">
+        <br>
+        <label for="DC"> Debit Card </label>
+        <input type="radio" id="DC" name="DC">
+        <br>
+        <label for="cash"> Cash on Arrival</label>
+        <input type="radio" id="cash" name="cash">
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+
+        
+         
+
+    </form>
+</body>
+</html>
