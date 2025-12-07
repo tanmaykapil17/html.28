@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Cards</title>
+    
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+.card-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+.profile-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background: #ffffff;
+    padding: 20px;
+    width: 340px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.profile-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-info h2 {
+    margin: 0 0 8px;
+}
+
+.profile-info p {
+    margin: 3px 0;
+    color: #333;
+}
+
+</style>
+<body>
+
+<h1 class="title">Student Profiles</h1>
+
+<div class="card-wrapper">
+
+    
+    <div class="profile-card">
+        <div class="profile-img">
+            <img src="https://via.placeholder.com/120" alt="Tanmay Photo">
+        </div>
+
+        <div class="profile-info">
+            <h2>Tanmay Kapil</h2>
+            <p><strong>Course:</strong> B.Tech CSE</p>
+            <p><strong>Year:</strong> 1st Year</p>
+            <p><strong>College:</strong> ABES Engineering College</p>
+        </div>
+    </div>
+
+    
+    <div class="profile-card">
+        <div class="profile-img">
+            <img src="https://via.placeholder.com/120" alt="Anushka Photo">
+        </div>
+
+        <div class="profile-info">
+            <h2>Anushka </h2>
+            <p><strong>Course:</strong> B.Tech CSE</p>
+            <p><strong>Year:</strong> 1st Year</p>
+            <p><strong>College:</strong> DTU</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
