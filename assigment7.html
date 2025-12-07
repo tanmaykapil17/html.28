@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient Navbar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Poppins, sans-serif;
+        }
+
+        /* NAVBAR */
+        nav {
+            width: 100%;
+            padding: 15px 40px;
+            background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.25);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* LOGO */
+        .logo {
+            font-size: 22px;
+            font-weight: 600;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        /* MENU */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px 18px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        /* BUTTON-LIKE NAV ITEMS */
+        nav a:hover {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(5px);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MyWebsite</div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
+
